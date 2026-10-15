@@ -1,0 +1,48 @@
+# ── Secrets & environment files ───────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.json
+# Allow the committed placeholder (contains no real secrets)
+!.env.example
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python bytecode & caches ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+
+# ── Pytest & coverage ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# ── Build & distribution ───────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── IDE & editor files ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ── OS-generated files ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Confidential assignment materials ─────────────────────────────────────────
+PROBLEM_STATEMENT.docx
